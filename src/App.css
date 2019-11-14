@@ -1,0 +1,98 @@
+*{
+  box-sizing: border-box;
+}
+
+.App {
+  background-color: #1a1d22;
+  min-height: 100vh;
+  color: white;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 90%;
+  pointer-events: none;
+}
+
+.App-header {
+  height: 10vh;
+  width: 100%;
+  padding: 8px;
+  color: #61dafb;
+  margin: 0 0 40px;
+  display: flex;
+  align-items: center;
+  flex-flow: row nowrap;
+  background-color: white;
+  font-size: calc(10px + 2vmin);
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.search-blck-wrp{
+  width: 65%;
+  height: 80px;
+  color: black;
+  margin: auto;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+  background-color: #61dafb;
+}
+
+.search-blck-wrp input[type="text"]{
+  height: 40%;
+  width: 45%;
+}
+
+.search-blck-wrp input[type="submit"]{
+  height: 40%;
+  min-width: 15%;
+  margin: 0 4px;
+  border: 0 none;
+  color: white;
+  background-color: #1a1d22;
+}
+.search-blck-wrp .refresh-btn{
+  height: 40%;
+  min-width: 15%;
+  border: 0 none;
+  color: white;
+  background-color: #1a1d22;
+}
+
+.card-wrp{
+  width: 50%;
+  margin: 10px;
+  min-height: 150px;
+  color: #61dafb;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+
+}
+.card-wrp img{
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+  background-color: grey;
+}
+
+.card-list{
+  min-height: 60%;
+  width: 100%;
+  display: flex;
+  flex-flow: column nowrap
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
